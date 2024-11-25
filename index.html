@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Electric Car Store</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+  <div class="grid-container">
+   
+    <nav class="menu">
+      <div class="logo">Electric Cars</div>
+      <div class="hamburger-menu">&#9776;</div>
+      <ul class="nav-links">
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Modelos</a></li>
+        <li><a href="#">Contacto</a></li>
+      </ul>
+    </nav>
+
+   
+    <aside class="filters">
+      <h2>Filtros</h2>
+      <label for="car-type">Tipo de Vehículo:</label>
+      <select id="car-type" name="car-type">
+        <option value="todos">Todos</option>
+        <option value="electrico">Eléctrico</option>
+        <option value="hibrido">Híbrido</option>
+        <option value="suv">SUV</option>
+      </select>
+    </aside>
+
+   
+    <main class="main-content">
+      <div class="products">
+        <div class="card electrico">
+          <img src="./assets/img/1.jpg" alt="Auto 1">
+          <h3>Modelo Eléctrico 1</h3>
+          <p>Un auto ecológico y eficiente, ideal para la ciudad.</p>
+          <button>Ver más</button>
+        </div>
+        <div class="card hibrido">
+          <img src="./assets/img/2.jpg" alt="Auto 2">
+          <h3>Modelo Híbrido 2</h3>
+          <p>Combina energía eléctrica y gasolina para un rendimiento excepcional.</p>
+          <button>Ver más</button>
+        </div>
+        <div class="card suv">
+          <img src="./assets/img/3.jpg" alt="Auto 3">
+          <h3>SUV Eléctrico 3</h3>
+          <p>El SUV más espacioso y amigable con el medio ambiente.</p>
+          <button>Ver más</button>
+        </div>
+      </div>
+    </main>
+
+    
+    <footer class="footer">
+      <p>© 2024 Electric Car Store. Todos los derechos reservados.</p>
+    </footer>
+  </div>
+</body>
+</html>
